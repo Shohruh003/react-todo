@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <input onKeyUp={handleInputValue} type="text" placeholder="Todo..."/>
+      <input className="input" onKeyUp={handleInputValue} type="text" placeholder="Todo..."/>
       {todos.length > 0 && <List>
         {
           todos.map(e => (
